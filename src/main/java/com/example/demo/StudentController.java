@@ -10,7 +10,7 @@ public class StudentController{
 	@GetMapping("/")
 	public String homepage() {
       	return "Welcome to student list";
-//		return "Hello world";
+
 	}
 
 	@GetMapping("/List")
