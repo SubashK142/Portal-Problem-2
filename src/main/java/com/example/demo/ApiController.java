@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RestController
 public class ApiController {
 	@GetMapping("/")
-	public String getName() {
-		return "Welcom to Spring boot";
+	public String welcome() {
+		return "Welcome Spring boot!";
 	}
 
 }
